@@ -43,4 +43,28 @@ Use `cmd.exe` (command line) to execute the below command.
 genoil.exe -c eu1-zcash.flypool.org:3333 -u t1Yw8f7mzpqw3LhsHCEhWZwQa6CDzErJzrx.<nodename> -p <random_password>
 ```
 
+## Restart scripts for Windows
+
+Sometimes the windows miners halt. Typically the GPU miners. Here are some script to help autorestart.
+
+`autorestart.bat`
+
+````
+:loop1
+start start.bat
+timeout /T 3600
+taskkill /F /IM genoil.exe
+timeout /T 25
+goto loop1
+```
+
+`start.bat`
+
+```
+<minig_cmd_from_above>
+exit
+```
+
+Make two files, `autorestart.bat` and `start.bat`. `start.bat` is the batch file for running the miner. `autorestart.bat` is the batch file is for restarting miner within a certain time interval. It is set as 1 hour (3600 seconds) in the example above. Feel free to adjust that numbers between 1800 ~ 7200
+
 enjoy.
