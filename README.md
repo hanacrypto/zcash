@@ -40,7 +40,7 @@ The `-cd` parameter refers to the display adapter DeviceID, or whatever the `nhe
 Use `cmd.exe` (command line) to execute the below command.
 
 ```
-genoil.exe -c eu1-zcash.flypool.org:3333 -u t1Yw8f7mzpqw3LhsHCEhWZwQa6CDzErJzrx.rig1 -p <random_password>
+genoil.exe -c eu1-zcash.flypool.org:3333 -u t1Yw8f7mzpqw3LhsHCEhWZwQa6CDzErJzrx.<nodename> -p <random_password>
 ```
 
 enjoy.
