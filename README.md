@@ -5,6 +5,10 @@ Miner status [here](http://zcash.flypool.org/miners/t1cdYQaJCYEEc5DrGoVfa6WJM7PL
 
 Wallet address: t1cdYQaJCYEEc5DrGoVfa6WJM7PLzGe6m6J
 
+## GPU Mining AMD/Radeon, Linux
+
+[Install Instructions](https://github.com/hanacrypto/zcash/blob/master/lubuntu_mining.md).
+
 ## CPU Mining Linux
 
 [Install Instructions](https://github.com/etherchain-org/nheqminer).
